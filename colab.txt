@@ -1,0 +1,5 @@
+# This cell imports the drive library and mounts your Google Drive as a VM local drive. You can access to your Drive files 
+# using this path "/content/gdrive/My Drive/"
+
+from google.colab import drive
+drive.mount('/content/gdrive')
